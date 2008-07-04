@@ -6,15 +6,15 @@ Gem::Specification.new do |s|
   s.summary = "Allows ActiveRecord models to define states and transition actions between them"
   s.description = "This act gives an Active Record model the ability to act as a finite state machine (FSM)."
   
-  s.authors = ['Jacques Crocker', 'Scott Barron']
+  s.authors = ['RailsJedi', 'Scott Barron']
   s.email = 'railsjedi@gmail.com'
   s.homepage = 'http://github.com/jcnetdev/acts_as_state_machine'
   
-  s.has_rdoc = false
-  # s.rdoc_options = ["--main", "README"]
-  #s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
+  s.has_rdoc = true
+  s.rdoc_options = ["--main", "README"]
+  s.extra_rdoc_files = ["README"]
 
-  s.add_dependency 'activerecord', ['>= 2.0']
+  s.add_dependency 'activerecord', ['>= 2.1']
   
   s.files = ["CHANGELOG",
              "MIT-LICENSE",
